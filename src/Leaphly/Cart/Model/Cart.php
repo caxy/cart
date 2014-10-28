@@ -32,7 +32,7 @@ abstract class Cart implements CartInterface, StatefulInterface
      /**
       * @var \DateTime $expiresAt
       * @Expose
-      * @Type("datetime")
+      * @Type("DateTime")
       * @SerializedName("expiresAt")
       */
      protected $expiresAt;
@@ -40,7 +40,7 @@ abstract class Cart implements CartInterface, StatefulInterface
      /**
       * @var \DateTime $createdAt
       * @Expose
-      * @Type("datetime")
+      * @Type("DateTime")
       * @SerializedName("createdAt")
       */
      protected $createdAt;
@@ -48,7 +48,7 @@ abstract class Cart implements CartInterface, StatefulInterface
      /**
       * @var \DateTime $updatedAt
       * @Expose
-      * @Type("datetime")
+      * @Type("DateTime")
       * @SerializedName("updatedAt")
       */
      protected $updatedAt;

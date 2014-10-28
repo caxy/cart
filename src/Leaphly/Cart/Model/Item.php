@@ -28,7 +28,7 @@ abstract class Item implements ItemInterface
     /**
      * @var \DateTime $createdAt
      * @Expose
-     * @Type("datetime")
+     * @Type("DateTime")
      * @SerializedName("createdAt")
      */
     protected $createdAt;
@@ -36,7 +36,7 @@ abstract class Item implements ItemInterface
     /**
      * @var \DateTime $updatedAt
      * @Expose
-     * @Type("datetime")
+     * @Type("DateTime")
      * @SerializedName("updatedAt")
      */
     protected $updatedAt;
